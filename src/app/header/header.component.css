@@ -1,0 +1,12 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: absolute;
+  top: 1.5rem;
+  left: 30%;
+  color: white;
+  font-size: 5rem;
+}
