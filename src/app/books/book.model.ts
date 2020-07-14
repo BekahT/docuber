@@ -1,3 +1,3 @@
 export class Book {
-  constructor(public name: string, public description: string, public imgPath: string) {}
+  constructor(public name: string, public description: string, public imgPath: string, public buyLink: string) {}
 }

@@ -1,12 +1,12 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-3" *ngFor="let book of books">
+    <div class="col-md-4 col-lg-3" *ngFor="let book of books">
       <div class="card mb-2">
         <img [src]="book.imgPath" [alt]="book.name" class="img-responsive">
         <div class="card-body">
           <h5 class="card-title">{{ book.name }}</h5>
           <p class="card-text">{{ book.description }}</p>
-          <a href="https://www.amazon.com/" class="btn btn-amazon"><i class="fa fa-amazon mr-2" aria-hidden="true"></i>Buy on Amazon</a>
+          <a [href]="book.buyLink" class="btn btn-amazon"><i class="fa fa-amazon mr-2" aria-hidden="true"></i>Buy on Amazon</a>
         </div>
       </div> 
     </div>    
