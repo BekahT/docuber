@@ -1,3 +1,11 @@
 div.card > img {
   height: 300px;
 }
+
+.btn-amazon {
+  background-color: #febd69;
+}
+
+.btn-amazon:hover {
+  background-color: #f3a847;
+}

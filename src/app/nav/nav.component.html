@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-success mb-4">
+<nav class="navbar navbar-expand-md navbar-dark bg-custom mb-4">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,14 +9,14 @@
         <a class="nav-link" href="#" (click)="onPageChanged('about')"
           [ngClass]="{'active': currentPage==='about'}">About</a>
       </li>
-      <li class="nav-item mr-4">
+      <li class="nav-item mx-4">
         <a class="nav-link" href="#" (click)="onPageChanged('books')"
           [ngClass]="{'active': currentPage==='books'}">Books</a>
       </li>
-      <li class="nav-item mr-4">
+      <li class="nav-item mx-4">
         <a class="nav-link" href="https://wordpress.com/" target="_blank">Blog</a>
       </li>
-      <li class="nav-item mr-4">
+      <li class="nav-item ml-4">
         <a class="nav-link" href="#" (click)="onPageChanged('contact')"
           [ngClass]="{'active': currentPage==='contact'}">Contact</a>
       </li>
