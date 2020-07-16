@@ -9,3 +9,9 @@ div.card > img {
 .btn-amazon:hover {
   background-color: #f3a847;
 }
+
+
+.jumbotron {
+  background-image: linear-gradient(to bottom right, #0064b1, #002246);
+  color: white;
+}
