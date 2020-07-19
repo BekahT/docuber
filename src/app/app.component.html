@@ -1,6 +1,4 @@
 <app-header></app-header>
-<app-nav (pageChanged)="onChange($event)"></app-nav>
-<app-about *ngIf="currentPage === 'about'"></app-about>
-<app-books *ngIf="currentPage === 'books'"></app-books>
-<app-contact *ngIf="currentPage === 'contact'"></app-contact>
+<app-nav></app-nav>
+<router-outlet></router-outlet>
 <app-footer></app-footer>

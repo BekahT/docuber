@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -6,17 +6,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  @Output() pageChanged = new EventEmitter<string>();
-  currentPage: string = 'about';
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  onPageChanged(newPage: string) {
-    this.currentPage = newPage;
-    this.pageChanged.emit(this.currentPage);
-  }
-
 }
