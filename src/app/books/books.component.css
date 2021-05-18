@@ -1,5 +1,6 @@
 div.card > img {
   height: 300px;
+  width: 200px;
 }
 
 .btn-amazon {
@@ -9,7 +10,6 @@ div.card > img {
 .btn-amazon:hover {
   background-color: #f3a847;
 }
-
 
 .jumbotron {
   background-image: linear-gradient(to bottom right, #0064b1, #002246);
